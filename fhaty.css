@@ -1,39 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-    
-body{
-background-color: aqua;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.container{
-font-size: medium;
-width: 100%;
-height: 100%;
-display: grid;
-grid-template-areas: 'sidebar''content''footer';
-grid-template-columns: 1fr;
-grid-template-rows: 130px 800px 250px;
-}
-.content, 
-.sidebar{
-    background: linear-gradient();
-}
 
-.footer{
-    padding: 1em;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+@importnurl('https://fonts.googleapis.com/css/family=quicksand:400,500&subset=latin-ext');
+body {
+    padding: 100px;
+    background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
     text-align: center;
+    font-family: 'quicksand', sans-serif;
 }
-nav li{
-    list-style: none;
-    padding: 1em 0;
-    color: blue;
+ul {
+    margin-left: -45px;
+}
+li {
+    life-style :none;
+    display : inline-block
+}
+.main {
+    width: 800px;
+    height: 520px;
+    background-color: #fafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee'
+}
+.img {
+    background-image: url(img.jpeg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
     font-weight: bold;
+    color: #6944ff;
+}
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #324e63;
+}
+p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: #324e63;
 }
